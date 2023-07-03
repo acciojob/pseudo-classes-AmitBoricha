@@ -1,1 +1,39 @@
 /*  your css code here. If applicable */
+:root{
+	background: skyblue;
+	font-family: sans-serif;
+}
+#para{
+	background-color: black;
+	color:white;
+}
+#lastpara{
+	color:red;
+}
+  /* List items background */
+
+li:first-child{
+	background-color:white;
+	width:50%;
+	padding:5px;
+}
+li:nth-child(2){
+	background-color:slategray;
+	width:50%;
+	padding:5px;
+}
+li:nth-child(3){
+	background-color:pink;
+	width:50%;
+	padding:5px;
+}
+li:nth-child(4){
+	background-color:slategray;
+	width:50%;
+	padding:5px;
+}
+li:last-child{
+	background-color:white;
+	width:50%;
+	padding:5px;
+}
